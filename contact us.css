@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+     background: url("background.jpg");
+     background-position: center;
+     background-size:  100%;
+     background-origin: 100%;
+     margin: 0px;
+     padding-top: 0px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 0px;
+}
+
+.contact h1{
+    font-size: 50px;
+    padding-left: 520px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aqua;
+    font-style: italic;
+}
+
+.contact h2{
+    font-size: 40px;
+    padding-left: 570px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    color: lightblue;
+    font-style: italic;
+}
+
+.header1{
+    float: right;
+    margin-top: 10px;
+    border: 0px solid white;
+    width: 320PX;
+    margin-right: 480PX;
+    
+    
+    border-radius: 15px;
+    
+}
+
+.header1 input{
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-right: 500px;
+    cursor: text;
+    width: 300px;
+    box-sizing: border-box;
+    border: none;border-bottom: 2px solid blue;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    background-color: ;
+}
+
+.header1 h2{ 
+    width: 70px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-bottom: 2px solid blue;
+}
+
+.header1 h2:hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+.header2{
+    border: 0px solid black;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.header2 h2{
+    color: blue;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.header2 p{
+    color: white;
+    padding-top: 5px;
+}
+
+.link{
+    float: right;
+    margin-left: 400px;
+    padding-top: 100px;
+    padding-right: 30px;
+    
+}
+
+.link li{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    display: inline-block;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.link li:hover{
+    background-color: white;
+    color: blue;
+}
